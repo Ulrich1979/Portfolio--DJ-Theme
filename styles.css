@@ -79,7 +79,8 @@ h1 {
 }
 
 .grid_item__image {
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+  object-fit: cover;
+  object-position: center;
+  max-width: 100%;
+  aspect-ratio: 1/1;
 }
