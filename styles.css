@@ -1,0 +1,23 @@
+/* GENERAL */
+
+:root {
+  --col-white: #f8f8fd;
+  --col-lightgrey: #ececf1;
+  --col-black: #101212;
+  --col-accent1: #db442c;
+  --col-accent2: #c1121f;
+  --brd-radius: .5rem;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Manrope", sans-serif;
+  font-size: 1.2rem;
+  line-height: 1.45;
+  letter-spacing: 0.2px;
+  font-style: normal;
+  transition: 0.66s;
+  scroll-behavior: smooth;
+}
