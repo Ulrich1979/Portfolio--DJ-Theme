@@ -1,19 +1,18 @@
 /* GENERAL */
 
 :root {
-  --col-white: #f8f8fd;
-  --col-lightgrey: #ececf1;
-  --col-black: #101212;
-  --col-accent1: #db442c;
-  --col-accent2: #c1121f;
-  --brd-radius: .5rem;
+  --col-white: #fdfdfe;
+  --col-rose: #fe99d9;
+  --col-black: #101007;
+  --col-orange: #ff6502;
+  --col-green: #1f9540;
 }
 
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  font-family: "Manrope", sans-serif;
+  font-family: "Work Sans", sans-serif;
   font-size: 1.2rem;
   line-height: 1.45;
   letter-spacing: 0.2px;
@@ -21,3 +20,13 @@
   transition: 0.66s;
   scroll-behavior: smooth;
 }
+
+h1, h2, h3 {
+  font-family: "Archivo Black", sans-serif;
+  font-weight: 400;
+  letter-spacing: -.05rem;
+  font-style: normal;
+}
+
+
+
