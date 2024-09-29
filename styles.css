@@ -64,7 +64,6 @@ h1 {
 }
 
 .hero_text {
-  margin-top: 20vh;
   text-align: center;
   color: var(--col-white);
 }
