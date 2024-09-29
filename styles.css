@@ -34,6 +34,11 @@ h1 {
   font-weight: 700;
 }
 
+h3 {
+  font-size: min(10vw, 3.5rem);
+  font-weight: 700;
+}
+
 .shaped_l {
   padding: 3rem max(calc((100vw - 1000px) / 2), 1rem);
 }
@@ -49,7 +54,6 @@ h1 {
 }
 
 .grid_item {
-  margin: 1rem;
   border: 1px solid var(--col-black);
 }
 
@@ -83,4 +87,8 @@ h1 {
   object-position: center;
   max-width: 100%;
   aspect-ratio: 1/1;
+}
+
+.grid_item__text {
+  margin: 1rem;
 }
